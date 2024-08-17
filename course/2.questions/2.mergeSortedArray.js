@@ -47,6 +47,7 @@ function mergeArrays2(array1, array2) {
     let array1Item = array1[0];
     let array2Item = array2[0];
     let i = 0;
+    let j = 0;
     
     if(array1.length == 0) return array2;
     if(array2.length == 0) return array1;

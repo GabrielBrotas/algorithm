@@ -20,7 +20,7 @@ const largestComponent = (graph) => {
     
     return biggestNode
   
-  };
+};
   
   const exploreSize = (graph, node, visitedPlaces) => {
     if(visitedPlaces.has(node)) return 0;

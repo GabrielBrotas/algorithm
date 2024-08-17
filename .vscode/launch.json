@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/graph.js"
+            "program": "${workspaceFolder}/graphs/bfs-shortest-reach.js"
         }
     ]
 }
